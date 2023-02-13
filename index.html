@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0" />
+    <title>Biodata</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: rgb(114, 145, 237);
+        background: radial-gradient(
+          circle,
+          rgba(114, 145, 237, 0.4) 0%,
+          rgba(148, 187, 233, 0.6) 100%
+        );
+        color: #292929;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+      }
+      .tabel {
+        background-color: #93a9d1;
+        border: 2px solid #252629;
+        box-shadow: 2px 2px 3px #252629;
+      }
+      tr,
+      td,
+      th {
+        padding: 0.7em;
+        border: 1px solid #252629;
+      }
+      .photo-cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .photo {
+        width: 10em;
+        padding: 0 2rem;
+      }
+      .photo > img {
+        width: 100%;
+        border: 2px solid #252629;
+      }
+      button {
+        border: 1px solid #252629;
+        border-radius: 10px;
+        padding: 3px 7px;
+        cursor: pointer;
+        background-color: #acc5dd;
+      }
+      .pendidikan,
+      .info {
+        background-color: #f1f7ff;
+      }
+      footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #252629;
+        color: whitesmoke;
+      }
+      footer .nrp {
+        margin: 20px auto;
+      }
+      a {
+        text-decoration: none;
+        color: #252629;
+      }
+    </style>
+  </head>
+  <body>
+    <h1
+      style="
+        text-align: center;
+        background-color: #252629;
+        color: #d2d2d2;
+        padding: 20px;
+        margin-bottom: 35px;
+      "
+    >
+      Biodata Diri
+    </h1>
+    <div class="container">
+      <table class="tabel biodata" border="1" cellspacing="0" cellpadding="7">
+        <tr>
+          <td rowspan="9">
+            <div class="photo-cont">
+              <div class="photo">
+                <img src="nonformal_photo.jpg" alt="" />
+              </div>
+            </div>
+          </td>
+          <th style="background-color: #d2d2d2">Nama lengkap</th>
+          <td style="background-color: #b8bec5">&nbsp;<b>:</b>&nbsp;</td>
+          <td style="background-color: #f1f7ff">Mohammad Zhafran Dzaky</td>
+        </tr>
+        <tr>
+          <th style="background-color: #d2d2d2">Tempat, tanggal lahir</th>
+          <td style="background-color: #b8bec5">&nbsp;<b>:</b>&nbsp;</td>
+          <td style="background-color: #f1f7ff">Surabaya, 06 Juli 2003</td>
+        </tr>
+        <tr>
+          <th style="background-color: #d2d2d2">Jenis kelamin</th>
+          <td style="background-color: #b8bec5">&nbsp;<b>:</b>&nbsp;</td>
+          <td style="background-color: #f1f7ff">Laki-Laki</td>
+        </tr>
+        <tr>
+          <th style="background-color: #d2d2d2">Agama</th>
+          <td style="background-color: #b8bec5">&nbsp;<b>:</b>&nbsp;</td>
+          <td style="background-color: #f1f7ff">Islam</td>
+        </tr>
+        <tr>
+          <th style="background-color: #d2d2d2">Alamat</th>
+          <td style="background-color: #b8bec5">&nbsp;<b>:</b>&nbsp;</td>
+          <td style="background-color: #f1f7ff">Jalan Scorpio no. 7</td>
+        </tr>
+        <tr>
+          <th style="background-color: #d2d2d2">Status</th>
+          <td style="background-color: #b8bec5">&nbsp;<b>:</b>&nbsp;</td>
+          <td style="background-color: #f1f7ff">Belum menikah</td>
+        </tr>
+        <tr>
+          <th style="background-color: #d2d2d2">Pekerjaan</th>
+          <td style="background-color: #b8bec5">&nbsp;<b>:</b>&nbsp;</td>
+          <td style="background-color: #f1f7ff">Mahasiswa</td>
+        </tr>
+        <tr>
+          <th style="background-color: #d2d2d2">Kewarganegaraan</th>
+          <td style="background-color: #b8bec5">&nbsp;<b>:</b>&nbsp;</td>
+          <td style="background-color: #f1f7ff">Indonesia</td>
+        </tr>
+        <tr>
+          <th style="background-color: #d2d2d2">Riwayat & Hobi</th>
+          <td style="background-color: #b8bec5">&nbsp;<b>:</b>&nbsp;</td>
+          <td style="background-color: #f1f7ff">
+            Cari Tahu Lebih Lanjut&ensp;<button type="button">
+              <a href="#footer">Klik di sini!</a>
+            </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <br /><br />
+
+    <div class="container">
+      <table
+        class="tabel pendidikan"
+        border="1"
+        cellspacing="0"
+        cellpadding="7"
+      >
+        <tr>
+          <th colspan="3" style="background-color: #93a9d1; font-size: 1.15em">
+            Riwayat Jenjang Pendidikan
+          </th>
+        </tr>
+        <tr style="background-color: #d2d2d2">
+          <th>Jenjang Pendidikan</th>
+          <th>Keterangan</th>
+          <th>Tahun</th>
+        </tr>
+        <tr>
+          <td>Sekolah Dasar</td>
+          <td>SDN Ketabang 1 Surabaya</td>
+          <td>2009 s.d 2015</td>
+        </tr>
+        <tr>
+          <td>Sekolah Menengah Pertama</td>
+          <td>SMP Negeri 1 Surabaya</td>
+          <td>2015 s.d 2018</td>
+        </tr>
+        <tr>
+          <td>Sekolah Menengah Atas</td>
+          <td>SMA Negeri 5 Surabaya</td>
+          <td>2018 s.d 2021</td>
+        </tr>
+        <tr>
+          <td>Perguruan Tinggi</td>
+          <td>Institut Teknologi Sepuluh Nopember</td>
+          <td>2021 s.d sekarang</td>
+        </tr>
+      </table>
+    </div>
+
+    <br /><br />
+
+    <div class="container">
+      <table
+        class="tabel info"
+        border="1"
+        cellspacing="0"
+        cellpadding="7"
+        style="margin-bottom: 10px"
+      >
+        <tr>
+          <th colspan="3" style="background-color: #93a9d1; font-size: 1.15em">
+            Informasi Umum
+          </th>
+        </tr>
+        <tr>
+          <th style="background-color: #d2d2d2">Nomor Telepon</th>
+          <td style="background-color: #b8c2c5">&nbsp;<b>:</b>&nbsp;</td>
+          <td>087855813296</td>
+        </tr>
+        <tr>
+          <th style="background-color: #d2d2d2">E-mail</th>
+          <td style="background-color: #b8bec5">&nbsp;<b>:</b>&nbsp;</td>
+          <td>zhafrandzaky@gmail.com</td>
+        </tr>
+        <tr>
+          <th style="background-color: #d2d2d2">Hobi</th>
+          <td style="background-color: #b8bec5">&nbsp;<b>:</b>&nbsp;</td>
+          <td>Rebahan</td>
+        </tr>
+        <tr>
+          <th style="background-color: #d2d2d2">Cerita Dari Hobi Saya</th>
+          <td style="background-color: #b8bec5">&nbsp;<b>:</b>&nbsp;</td>
+          <td style="max-width: 400px">
+            Hobi terawet yang masih belum bisa tergantikan sampai sekarang
+            adalah rebahan. Hal ini baru saya sadari semenjak saya duduk di
+            bangku perkuliahan. Hobi yang dulunya adalah bermain basket, futsal
+            dan video game bersama teman - teman sudah tidak terasa
+            semenyenangkan rebahan saat ini. Mungkin ini bagian dari tumbuh
+            dewasa, dengan tanggung jawab yang semakin berat, kesibukan yang
+            lebih berarti, dan impian yang harus dicapai membuat rebahan menjadi
+            suatu hal yang sekarang sudah jarang lagi dapat dilakukan jika
+            dibandingkan dengan waktu SMA.
+          </td>
+        </tr>
+      </table>
+      <button type="button" class="back" style="margin-top: 15px">
+        <a href="">kembali</a>
+      </button>
+    </div>
+    <footer id="footer">
+      <p class="nrp">zhafrandzaky | 5025211142</p>
+    </footer>
+  </body>
+</html>
