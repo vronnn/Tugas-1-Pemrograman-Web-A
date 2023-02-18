@@ -1,2 +1,7 @@
 # Tugas-1-Pemrograman-Web-A
-A personal profile page made with HTML and CSS for college assignment.
+&rarr;&ensp;Membuat CV dengan menggunakan HTML  
+  
+
+- Nama : Mohammad Zhafran Dzaky  
+- NRP : 5025211142  
+- Kelas : Pemrograman Web (A)
